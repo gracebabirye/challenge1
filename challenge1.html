@@ -1,0 +1,245 @@
+<html>
+
+<head>
+    <style>
+        #navbar a {
+            text-decoration: none;
+            font-size: 26px;
+            display: block;
+            color: white;
+            padding: 5px 6px 6px 11px;
+        }
+        
+        #navbar {
+            height: 100%;
+            width: 16%;
+            position: fixed;
+            z-index: 1;
+            top: 0;
+            left: 0;
+            background-color: #461054;
+            overflow-x: hidden;
+        }
+        
+        #navbar a:hover {
+            color: #818181;
+        }
+        
+        #main-doc {
+            margin-left: 16%;
+            margin-top: -33px;
+        }
+        
+        header {
+            background-color: #ca11f9;
+            text-align: center;
+            font-size: 166%;
+            color: white;
+            margin-left: -5px;
+        }
+        
+        @media (min-width: 768px) and (max-width: 1024px) {
+            #navbar a {
+                font-size: 23px;
+            }
+        }
+        
+        #home_section,
+        #about_us {
+            font-family: Verdana, Geneva, sans-serif;
+            padding: 0px 15px;
+        }
+        
+        @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+            #navbar a {
+                font-size: 17px;
+            }
+        }
+        
+        @media (min-width: 481px) and (max-width: 767px) {
+            #navbar a {
+                font-size: 10px;
+            }
+        }
+        
+        @media (min-width: 320px) and (max-width: 480px) {
+            #navbar a {
+                font-size: 7px;
+            }
+        }
+        
+        .div_boarder {
+            padding: 1%;
+            background-color: #dccdea;
+        }
+        
+        ul {
+            list-style: circle;
+        }
+        
+        .products_img {
+            width: 33%;
+            height: 32%;
+        }
+        
+        .gallery_img {
+            width: 33%;
+            height: 41%;
+        }
+        
+        input[type=text],
+        textarea {
+            padding: 1%;
+            border: 2px solid #cab4ca;
+            width: 40%;
+        }
+        
+        label {
+            font-size: 20px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <nav id="navbar">
+        <h1 style="color: whitesmoke; margin-left: 15px; font-weight: bolder">GRACE FARM</h1>
+        <ul>
+            <a class="nav-link" href="#home_section">Home</a>
+            <a class="nav-link" href="#about_us">About Us</a>
+            <a class="nav-link" href="#products">Products</a>
+            <a class="nav-link" href="#gallery">Gallery</a>
+            <a class="nav-link" href="#contact_us">Contact Us</a>
+        </ul>
+    </nav>
+
+    <div id="main-doc">
+        <section class="main-section" id="home_section">
+
+            <header>
+                <h2>Home</h2>
+            </header>
+            <i><span style="margin-left: 2%; color: purple; font-size: 27px">Welcome to Grace Farm Site!</span> </i>
+            <img style="margin-top: -32px; float: right;" src="img/wholefarm.jpg" width="600" height="270" />
+            <div style="background-color: #fdf5fd;">
+                <p><span style="font-weight: bold">Grace Farm</span> is a livestock farm located in Kampala, Uganda</p>
+                <p>It started in 2001 and has had quite a number of achievements during its existance.</p>
+                <p>It was started by one person who is still the owner and works along with fifteen other members.</p>
+                <p>It is a private owned entity that focuses on derivering best and high agricultural products to the clients</p>
+            </div><br>
+            <p>The farm mainly deals in rearing chicken, goats, cattle and sheep.</p>
+            <p>It also supplies animal feeds, sells manure, animal products like milk, eggs and meat.</p>
+            <p>Additionally, the farm also provides quidance to farmers who are raring different livestock and quidance to those who want to start up farming.</p>
+            <p>This guidance includes; tips on how to start up a farm e.g the size of the housing, ventilation, etc.</p>
+            <p>To the people who are already doing farming, they can consult the veterinary doctors of the farm and get help.</p>
+            <p>The farm also sells animall vaccines and feeds, it also provides vaccination services and artificial insemination.</p>
+            <i><span style="margin-left: 41%; color: purple; font-size: 202%">Rare with us!</span> </i>
+        </section>
+
+        <section class="main-section" id="about_us">
+            <header>
+                <h2>About Us</h2>
+            </header>
+            <p>Grace Kisitu opened up a farm in 2001 and called it <b>Grace Farm</b>. It was started with a goal of becoming the number one farm in Uganda that provides best agricultual products and services.</p>
+            <p>Grace Farm products include; <i>Chicken eggs, chicken, manure, cows, goats and milk.</i></p>
+            <p>It also provides paid for services like; Vaccination, artificial insemination.</p>
+
+            <h3>Our Mission</h3>
+            <div class="div_boarder">
+                <p>To produce high quality agricultural products that meet and exceed the needs of our clients.</p>
+                <p>We will strive for economic efficiency, effectiveness and sustainability to enhance the quality of life for our employees and our community through agriculture.</p>
+            </div>
+
+            <h3>Our Vision</h3>
+            <div class="div_boarder">
+                <p>To deliver improved livelihoods of rural communities through sustainable agricultural practices and entrepreneurship.</p>
+            </div>
+
+            <h3>Our Value</h3>
+            <ul>
+                <li>Passion</li>
+                <li>Creativity and Innovation</li>
+                <li>Commitment</li>
+                <li>Honesty</li>
+                <li>Transparency</li>
+            </ul>
+        </section>
+
+        <section class="main-section" id="products">
+            <header>
+                <h2>Our Products</h2>
+            </header>
+            <div style="font-family: Verdana, Geneva, sans-serif;">
+                <p>Our <b>Products</b> are of high quality and are sold at a reasonable price.</p>
+                <p>We do deliveries for clients who stay within.</p>
+            </div>
+            <div>
+                <span><img class="products_img" src="img/cows.jpg"></span>
+                <span><img class="products_img" src="img/goats.jpg"></span>
+                <span><img class="products_img" src="img/hens.jpg"></span>
+                <i>We sell cows, chicken, and Goats.</i>
+            </div><br>
+            <div>
+                <span><img class="products_img" src="img/eggs.jpg"></span>
+                <span><img class="products_img" src="img/skin.jpg"></span>
+                <span><img class="products_img" src="img/manure.jpg"></span>
+                <i>We also sell eggs, manure and animmal skin.</i>
+            </div>
+        </section>
+
+        <section class="main-section" id="gallery">
+            <header>
+                <h2>Gallery</h2>
+            </header>
+            <div>
+                <span><img class="gallery_img" src="img/milking.jpg"></span>
+                <span><img class="gallery_img" src="img/insermination.jpg"></span>
+                <span><img class="gallery_img" src="img/milk.jpg"></span>
+            </div>
+            <div>
+                <span><img class="gallery_img" src="img/vaccinate.jpg"></span>
+                <span><img class="gallery_img" src="img/vaccinate2.jpg"></span>
+                <span><img class="gallery_img" src="img/pickeggs.jpg"></span>
+            </div>
+        </section>
+
+        <section class="main-section" id="contact_us">
+            <header>
+                <h2>Contact Us</h2>
+            </header>
+            <div class="div_boarder">
+                <h2 style="text-align: center">Grace Farm</h2>
+                <div><label>Email: </label><b><font color="blue">gracefarm@yahoo.com</font></b></div>
+                <div><label>Tel: </label><b><font color="blue">+999 999 999</font></b></div>
+                <b><i><font color="blue">gracefarm@facebook.com</font></i></b>
+
+                <form>
+                    <br>
+                    <div>
+                        <label>First Name</label><br>
+                        <input type="text" value="" placeholder="Name" />
+                    </div><br>
+
+                    <div>
+                        <label>Last Name</label><br>
+                        <input type="text" value="" placeholder="Name" />
+                    </div><br>
+
+                    <div>
+                        <label>Email Address</label><br>
+                        <input type="text" value="" placeholder="Email" />
+                    </div><br>
+
+                    <div>
+                        <label>Comment</label><br>
+                        <textarea placeholder="Write your Request" rows="4"></textarea>
+                    </div><br>
+
+                    <input style="padding: 1%; background-color: purple; border: none; color: white; font-weight: bolder; cursor: pointer; margin-left: 34%" type="submit" value="Submit" />
+                </form>
+            </div><br><br><br>
+        </section>
+    </div>
+</body>
+
+</html>
